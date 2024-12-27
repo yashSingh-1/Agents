@@ -8,13 +8,12 @@ const Navbar = () => {
     <div className="w-full h-fit p-5 flex justify-between">
       <div className="text-xl font-mono">Automate AI</div>
       <div>
-        <Link href="/login">
-            <Button>
+
+            <Button className="bg-white">
             <SignedOut>
                 <SignInButton />
             </SignedOut>
             </Button>
-        </Link>
       </div>
     </div>
   );
