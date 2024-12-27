@@ -9,11 +9,11 @@ const Navbar = () => {
       <div className="text-xl font-mono">Automate AI</div>
       <div>
 
-            <Button className="bg-white">
-            <SignedOut>
+            <SignedOut >
+            <Button asChild className="bg-white">
                 <SignInButton />
-            </SignedOut>
             </Button>
+            </SignedOut>
       </div>
     </div>
   );
