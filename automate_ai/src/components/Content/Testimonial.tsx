@@ -7,19 +7,19 @@ export function Testimonials() {
       quote: "This platform made presenting my app idea so much easier. The professional look really impressed potential investors.",
       author: "Alex Morgan",
       role: "Startup Founder",
-      avatar: "/placeholder.svg?height=40&width=40"
+      avatar: "https://placehold.co/600x400"
     },
     {
       quote: "The tools and features provided helped us create a compelling presentation that got our message across clearly.",
       author: "Sarah Chen",
       role: "Product Manager",
-      avatar: "/placeholder.svg?height=40&width=40"
+      avatar: "https://placehold.co/600x400"
     },
     {
       quote: "Outstanding platform that simplified our app presentation process. Highly recommended!",
       author: "James Wilson",
       role: "Tech Entrepreneur",
-      avatar: "/placeholder.svg?height=40&width=40"
+      avatar: "https://placehold.co/600x400"
     }
   ]
 
