@@ -21,9 +21,6 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body>
-          <SignedIn>
-            <UserButton />
-          </SignedIn>
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"

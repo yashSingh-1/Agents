@@ -1,3 +1,4 @@
+import Sidebar from '@/components/Content/Sidebar'
 import React from 'react'
 
 type Props = {
@@ -7,7 +8,10 @@ type Props = {
 
 const layout = ({children, params}: Props) => {
   return (
-    <div>layout</div>
+    <div className='p-3'>
+        <Sidebar slug={params.slug} />
+        {/* NavigationBar */}
+    </div>
   )
 }
 
