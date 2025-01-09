@@ -44,8 +44,10 @@ const Sidebar = ({ slug }: Props) => {
        bg-clip-padding 
        backdrop-filter 
        backdrop--blur__safari 
-       backdrop-blur-3xl"
+       backdrop-blur-3xl
+       justify-between"
       >
+        <div>
         <div className="flex gap-x-2 items-center p-5 justify-center">
           <Logo />
         </div>
@@ -55,7 +57,7 @@ const Sidebar = ({ slug }: Props) => {
         <div className="px-16">
           <Separator orientation="horizontal" className="bg-[#2b2b2e]" />
         </div>
-        <div className="px-3 flex flex-col gap-y-5">
+        <div className="px-3 flex flex-col gap-y-5 pt-10">
           <div className="flex gap-x-2">
             <ClerkAuthState />
             <p className="text-[#9B9CA0]">
@@ -68,6 +70,7 @@ const Sidebar = ({ slug }: Props) => {
               Help
             </p>
           </div>
+        </div>
         </div>
         <SubscriptionPlan type={"FREE"}>
           <div className="flex-1 flex flex-col justify-end ">
