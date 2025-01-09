@@ -1,6 +1,7 @@
 "use client";
 import { usePaths } from "@/hooks/use-nav";
 import Logo from "../Logo";
+import Items from "./Items";
 
 type Props = {
   slug: string;
@@ -44,7 +45,7 @@ const Sidebar = ({ slug }: Props) => {
           <Logo />
         </div>
         <div className="flex flex-col py-3">
-          something
+          <Items />
         </div>
       </div>
     </div>
