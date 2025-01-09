@@ -5,6 +5,8 @@ import Items from "./Items";
 import { Separator } from "@/components/ui/separator";
 import ClerkAuthState from "../clerk-auth-state";
 import { HelpDuoToneWhite } from "@/icons";
+import SubscriptionPlan from "../subscription-plan";
+import Upgrade from "./Upgrade";
 
 type Props = {
   slug: string;
@@ -67,6 +69,11 @@ const Sidebar = ({ slug }: Props) => {
             </p>
           </div>
         </div>
+        <SubscriptionPlan type={"FREE"}>
+          <div className="flex-1 flex flex-col justify-end ">
+            <Upgrade />
+          </div>
+        </SubscriptionPlan>
       </div>
     </div>
   );
