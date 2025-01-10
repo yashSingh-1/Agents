@@ -13,7 +13,7 @@ type Props = {
 const Sheet = ({ trigger, children, className }: Props) => {
   return (
     <ShadCnSheet>
-      <SheetTrigger className={className}>{trigger} somr</SheetTrigger>
+      <SheetTrigger className={className}>{trigger}</SheetTrigger>
       <SheetContent>{children}</SheetContent>
     </ShadCnSheet>
   );
