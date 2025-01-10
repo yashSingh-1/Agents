@@ -2,7 +2,7 @@
 
 import { PAGE_BREAD_CRUMBS } from "@/constants/pages";
 import { usePaths } from "@/hooks/use-nav";
-import { Menu } from "lucide-react";
+import { Menu, Search } from "lucide-react";
 import Sheet from "../sheet";
 import Sidebar from "../Sidebar";
 import { HelpDuoToneWhite } from "@/icons";
@@ -12,6 +12,7 @@ import Items from "../Sidebar/Items";
 import Upgrade from "../Sidebar/Upgrade";
 import SubscriptionPlan from "../subscription-plan";
 import Logo from "../Logo";
+import CreateAutomations from "../create-automations/CreateAutomations";
 
 type Props = {
   slug: string;
@@ -26,10 +27,7 @@ const NavigationBar = ({ slug }: Props) => {
         <div className="flex flex-col">
           <div className="flex gap-x-3 lg:gap-x-5 justify-end">
             <div className="lg:hidden flex items-center flex-1 gap-x-2 justify-between">
-              <div>
-                <Logo/>
-              </div>
-              <Sheet trigger={<Menu />} className="lg:hidden">
+              <Sheet trigger={<Menu />} className="lg:hidden" side="left">
                 <div className="flex flex-col justify-between h-full">
                   <div>
                     <div className="flex flex-col py-3">
@@ -60,6 +58,8 @@ const NavigationBar = ({ slug }: Props) => {
                 </div>
               </Sheet>
             </div>
+            <Search/>
+            <CreateAutomations />
           </div>
         </div>
       )}
