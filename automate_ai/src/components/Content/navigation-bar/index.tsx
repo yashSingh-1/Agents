@@ -14,6 +14,7 @@ import Logo from "../Logo";
 import CreateAutomations from "../create-automations/CreateAutomations";
 import SearchBar from "../Search/search";
 import Notifications from "../Notifications/notifications";
+import MainBreadCrumb from "../breadcrumb/MainBreadCrumb";
 
 type Props = {
   slug: string;
@@ -64,6 +65,7 @@ const NavigationBar = ({ slug }: Props) => {
             <CreateAutomations />
             <Notifications />
           </div>
+          <MainBreadCrumb page={page === slug ? 'Home' : page} slug={slug} />
         </div>
       )}
     </div>

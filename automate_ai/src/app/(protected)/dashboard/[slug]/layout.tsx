@@ -1,4 +1,3 @@
-import Navbar from '@/components/Content/Navbar'
 import NavigationBar from '@/components/Content/navigation-bar'
 import Sidebar from '@/components/Content/Sidebar'
 import React from 'react'
@@ -22,6 +21,7 @@ const layout = ({children, params}: Props) => {
         overflow-auto
         '>
           <NavigationBar slug={params.slug}/>
+          {children}
         </div>
     </div>
   )
