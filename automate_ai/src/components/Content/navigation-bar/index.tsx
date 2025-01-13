@@ -2,9 +2,8 @@
 
 import { PAGE_BREAD_CRUMBS } from "@/constants/pages";
 import { usePaths } from "@/hooks/use-nav";
-import { Menu, Search } from "lucide-react";
+import { Menu } from "lucide-react";
 import Sheet from "../sheet";
-import Sidebar from "../Sidebar";
 import { HelpDuoToneWhite } from "@/icons";
 import { Separator } from "@radix-ui/react-separator";
 import ClerkAuthState from "../clerk-auth-state";
@@ -13,6 +12,8 @@ import Upgrade from "../Sidebar/Upgrade";
 import SubscriptionPlan from "../subscription-plan";
 import Logo from "../Logo";
 import CreateAutomations from "../create-automations/CreateAutomations";
+import SearchBar from "../Search/search";
+import Notifications from "../Notifications/notifications";
 
 type Props = {
   slug: string;
@@ -58,8 +59,10 @@ const NavigationBar = ({ slug }: Props) => {
                 </div>
               </Sheet>
             </div>
-            <Search/>
+
+            <SearchBar />
             <CreateAutomations />
+            <Notifications />
           </div>
         </div>
       )}
