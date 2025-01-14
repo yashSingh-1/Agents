@@ -4,28 +4,28 @@ export function Features() {
   const features = [
     {
       icon: Smartphone,
-      title: "Intuitive Design",
-      description: "Clean and modern interface that makes app presentation a breeze"
+      title: "Some Feature",
+      description: "Describe the feature well, in a orderly fashing in a few words!"
     },
     {
       icon: Zap,
-      title: "Lightning Fast",
-      description: "Optimized performance for smooth and responsive experience"
+      title: "Some Feature",
+      description: "Describe the feature well, in a orderly fashing in a few words!"
     },
     {
       icon: Users,
-      title: "Collaboration",
-      description: "Work together with your team in real-time"
+      title: "Some Feature",
+      description: "Describe the feature well, in a orderly fashing in a few words!"
     },
     {
       icon: CheckCircle,
-      title: "Easy to Use",
-      description: "Get started quickly with our user-friendly platform"
+      title: "Some Feature",
+      description: "Describe the feature well, in a orderly fashing in a few words!"
     }
   ]
 
   return (
-    <section className="py-24 px-4 bg-background">
+    <section className="py-24 px-4 bg-gradient-to-r from-black via-slate-950 to-gray-900">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4 text-primary">Powerful Features</h2>

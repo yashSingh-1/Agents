@@ -15,7 +15,7 @@ export function Benefits() {
     ]
   
     return (
-      <section className="py-24 px-4 bg-background">
+      <section className="py-24 px-4 bg-gradient-to-br from-gray-900 via-slate-950 to-blue-950">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4 text-primary">Benefits</h2>

@@ -1,19 +1,24 @@
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export function Hero() {
   return (
-    <section className="py-24 px-4 bg-gradient-to-b from-background to-muted">
+    <section className="py-24 px-4 bg-gradient-to-r from-gray-900 via-slate-950 to-black">
       <div className="container mx-auto max-w-6xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <h1 className="text-5xl font-bold tracking-tight text-primary">
-              Present Your App Idea With Confidence
+              Some Placeholder, write as you please here!
             </h1>
             <p className="text-xl text-muted-foreground">
-              Transform your app concept into a compelling presentation that captures attention and drives engagement.
+              Write the description of whatever tf we are making here! make it like more than 20 words
+              so that it can touch 3 lines
             </p>
             <div className="flex gap-4">
+              <Link href={"/dashboard/home"} >
               <Button size="lg">Get Started</Button>
+              
+              </Link>
               <Button size="lg" variant="outline">Learn More</Button>
             </div>
           </div>

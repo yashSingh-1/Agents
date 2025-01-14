@@ -24,7 +24,7 @@ export function Testimonials() {
   ]
 
   return (
-    <section className="py-24 px-4 bg-muted">
+    <section className="py-24 px-4 bg-gradient-to-b from-gray-900 via-slate-950 to-yellow-950">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4 text-primary">What Our Users Say</h2>
