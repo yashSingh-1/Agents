@@ -8,14 +8,14 @@ Welcome to the **AI Agents Repository**! This repository contains multiple proje
 Each folder in this repository corresponds to an individual AI agent project. Below is a high-level structure of the repository:
 
 ```
-📂 AI-Agents-Repo/
-│-- 📂 project-1/
+📂 Agents/
+│-- 📂 fontend/                # It is the fontnend to the automate_Ai
 │   ├── 📁 src/                # Source code for the project
 │   ├── 📄 README.md           # Project-specific documentation
 │   ├── 📄 package.json        # Dependencies and scripts
 │   ├── 📄 .env.example        # Environment variables template
 │   ├── 📄 next.config.js      # Next.js configuration
-│-- 📂 project-2/
+│-- 📂 automate_ai/
 │   ├── 📁 src/
 │   ├── 📄 README.md
 │-- 📂 shared-components/      # Common UI and logic for all projects
