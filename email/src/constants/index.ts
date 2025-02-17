@@ -5,10 +5,10 @@ export const CardsForHome = [
     },
     {
         title: "Full-text search",
-        description: "Quickly find any email with our powerful search functionality."
+        description: "Quickly find any email with our powerful search functionality using AI."
     },
     {
-        title: "Shortcut-focused interface",
-        description: "Navigate your inbox efficiently with our intuitive keyboard shortcuts."
+        title: "Shortcut-focused way",
+        description: "Navigate your inbox efficiently with intuitive keyboard shortcuts."
     }
 ]
