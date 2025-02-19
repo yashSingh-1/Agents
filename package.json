@@ -1,0 +1,7 @@
+
+{
+    "dependencies": {
+      "prisma": "^6.3.1",
+      "trpc": "^0.10.4"
+    }
+  }
