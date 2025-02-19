@@ -3,13 +3,13 @@ import Sidebar from "../components/Sidebar"
 const Dashboard = () => {
   return (
     <div className="flex justify-start">
-        <div className="">
+        <div className="w-fit">
             <Sidebar />
         </div>
-        <div className="w-1/3">
+        <div className="">
             Maincomponent
         </div>
-        <div className="w-1/3">
+        <div className="">
             Email
         </div>
     </div>

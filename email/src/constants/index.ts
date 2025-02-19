@@ -1,3 +1,7 @@
+import Home from "../assets/Home.svg";
+import Drafts from "../assets/Drafts.svg";
+import Sent from "../assets/Sent.svg"
+
 export const CardsForHome = [
     {
         title: "AI-driven email RAG",
@@ -10,5 +14,20 @@ export const CardsForHome = [
     {
         title: "Shortcut-focused way",
         description: "Navigate your inbox efficiently with intuitive keyboard shortcuts."
+    }
+]
+
+export const SidebarEvents = [
+    {
+        name: "Home",
+        img: Home
+    },
+    {
+        name: "Drafts",
+        img: Drafts
+    },
+    {
+        name: "Sent",
+        img: Sent
     }
 ]
