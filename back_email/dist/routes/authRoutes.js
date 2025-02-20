@@ -43,7 +43,7 @@ router.post("/api/register", (req, res) => __awaiter(void 0, void 0, void 0, fun
         res.cookie("authToken", token, {
             httpOnly: true,
             secure: true,
-            sameSite: "strict"
+            sameSite: "lax"
         });
         return res.status(201).json({ message: "User Created successfully", token });
     }
